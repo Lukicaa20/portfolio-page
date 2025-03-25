@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-picture">
           <h2>About me</h2>
           <img
-            src="public/450368397_389977390857503_5078429100215297349_n.jpg"
+            src="/450368397_389977390857503_5078429100215297349_n.jpg"
             alt="profile"
             width="300px"
             height="300px"

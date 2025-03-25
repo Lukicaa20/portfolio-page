@@ -1,6 +1,6 @@
 /* Hero sekcija */
 .hero {
-  background-image: url("public/premium_photo-1720287601920-ee8c503af775.avif");
+  background-image: url("/premium_photo-1720287601920-ee8c503af775.avif");
   background-size: cover;
   background-position: center;
   display: flex;
