@@ -18,15 +18,15 @@ const projects = [
     title: "Quiz App",
     description:
       "An interactive quiz application with multiple-choice questions.",
-    link: "https://your-quiz-app-link.com",
-    repo: "https://github.com/yourgithub/quiz-app",
+    link: "https://quiz-app-five-flame-21.vercel.app/",
+    repo: "https://github.com/Lukicaa20/QuizApp",
     icon: <MdQuiz />,
   },
   {
     title: "Tic-Tac-Toe",
     description: "A classic Tic-Tac-Toe game with a smart AI opponent.",
-    link: "https://your-tic-tac-toe-link.com",
-    repo: "https://github.com/yourgithub/tic-tac-toe",
+    link: "https://tic-tac-toe-xi-cyan.vercel.app/",
+    repo: "https://github.com/Lukicaa20/Tic-Tac-Toe",
     icon: <TbTicTac />,
   },
 ];
