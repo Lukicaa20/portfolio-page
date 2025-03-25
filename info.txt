@@ -1,0 +1,15 @@
+-titula mi je mag.ing.sec koju sam dobio na veleučilistu u karlovcu, smjer zaštita od požara
+-trenutno radim kao vatrogasacu u dobrovoljno vatrogasnom drustvu
+-zavrsio sam tečaj za front end developera na sveucilistu algebra te od zavrsetka kvalifikacije radim i ucim sam
+-codewars
+
+
+skills
+
+intermediate
+
+html, css, js, react
+
+familiar with
+
+node, express, mongodb, oop in java, solidity
