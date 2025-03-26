@@ -10,8 +10,8 @@ const projects = [
   {
     title: "To-Do App",
     description: "A simple to-do list with task management features.",
-    link: "https://your-todo-app-link.com",
-    repo: "https://github.com/yourgithub/todo-app",
+    link: "https://todo-app-neon-nine-12.vercel.app/",
+    repo: "https://github.com/Lukicaa20/TodoApp",
     icon: <LuListTodo />,
   },
   {
