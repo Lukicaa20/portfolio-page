@@ -39,6 +39,21 @@
   color: #333;
   font-size: 3rem;
 }
+.skills-section__info .codewars-badge {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+.skills-section__info .codewars-badge:hover {
+  transform: scale(1.05);
+}
+.skills-section .codewars-h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+  animation: shake 1s ease-in-out 2s infinite;
+}
 
 @keyframes shake {
   0% {

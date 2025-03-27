@@ -107,6 +107,23 @@ const Skills = () => {
             </li>
           </ul>
         </div>
+        <div className="skills-section_info">
+          <h3 className="codewars-h3">Codewars progress</h3>
+          <ul>
+            {" "}
+            <a
+              href="https://www.codewars.com/users/Lukicaa20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://www.codewars.com/users/Lukicaa20/badges/large"
+                alt="Codewars Badge"
+                className="codewars-badge"
+              />
+            </a>
+          </ul>
+        </div>
       </div>
     </section>
   );
