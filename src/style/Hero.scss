@@ -1,22 +1,35 @@
-/* Hero sekcija */
 .hero {
   background-image: url("/premium_photo-1720287601920-ee8c503af775.avif");
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   height: 80vh;
   padding-left: 26px;
   overflow-x: hidden;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .hero h1 {
   color: white;
   font-size: 3.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
   animation: blinkAnimation 10s infinite ease;
+}
+
+.visit-counter {
+  color: white;
+  font-size: 1.5rem;
+  animation: blinkAnimation 10s infinite ease;
+  margin-left: 4px;
 }
 
 @keyframes blinkAnimation {
