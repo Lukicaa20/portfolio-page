@@ -5,22 +5,21 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import { useEffect, useState } from "react";
-
+import { useEffect } from "react";
 import "./style/Reset.scss";
+import { useDispatch } from "react-redux";
+import { fetchData } from "./redux/data-slice";
 
 const App = () => {
-  const [visits, setVisits] = useState(null);
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    fetch("https://profile-visit-counter.onrender.com/api/visit")
-      .then((res) => res.json())
-      .then((data) => setVisits(data.visits));
-  }, []);
+    dispatch(fetchData());
+  }, [dispatch]);
   return (
     <>
       <Nav />
-      <Hero visits={visits} />
+      <Hero />
       <About />
       <Skills />
       <Projects />

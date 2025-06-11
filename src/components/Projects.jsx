@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { TbTicTac } from "react-icons/tb";
 import { MdQuiz } from "react-icons/md";
 import { LuListTodo } from "react-icons/lu";
+import { SiRedux } from "react-icons/si";
 
 const projects = [
   {
@@ -28,6 +29,14 @@ const projects = [
     link: "https://tic-tac-toe-xi-cyan.vercel.app/",
     repo: "https://github.com/Lukicaa20/Tic-Tac-Toe",
     icon: <TbTicTac />,
+  },
+  {
+    title: "Simple Cart App - Redux Toolkit",
+    description:
+      "A minimal e-commerce app where users can add, increase, decrease, or remove items from the cart. ",
+    link: "https://redux-cart-phi-ochre.vercel.app/",
+    repo: "https://github.com/Lukicaa20/redux-cart",
+    icon: <SiRedux />,
   },
 ];
 
