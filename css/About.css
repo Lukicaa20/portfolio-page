@@ -46,7 +46,7 @@
   text-align: left;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   #about {
     display: flex;
     justify-content: center;

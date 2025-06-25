@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const uiSlice = createSlice({
   name: "ui",
   initialState: {
-    isMobile: window.innerWidth <= 375,
+    isMobile: window.innerWidth <= 768,
     isMenuOpen: false,
   },
   reducers: {
