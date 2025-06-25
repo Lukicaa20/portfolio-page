@@ -45,3 +45,21 @@
   margin-bottom: 1.5rem;
   text-align: left;
 }
+
+@media (max-width: 376px) {
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+}

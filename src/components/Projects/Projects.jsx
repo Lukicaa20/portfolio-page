@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Projects.scss";
+import "./Projects.scss";
 import { MdLiveTv } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { TbTicTac } from "react-icons/tb";

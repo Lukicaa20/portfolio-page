@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Contact.scss";
+import "./Contact.scss";
 import { CiMail } from "react-icons/ci";
 
 const Contact = () => {

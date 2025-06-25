@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Skills.scss";
+import "./Skills.scss";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";

@@ -30,6 +30,7 @@
 }
 
 /* Burger */
+
 .bm-burger-button {
   position: fixed;
   width: 24px;
@@ -93,21 +94,24 @@
   position: sticky;
   top: 0;
   z-index: 10;
-}
-.mobile-nav .initials {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.mobile-nav .burger-toggle {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-.mobile-nav .burger-toggle:hover {
-  color: #3498db;
+
+  .initials {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .burger-toggle {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      color: #3498db;
+    }
+  }
 }
 
 .close-button {
@@ -120,9 +124,10 @@
   right: 1.5rem;
   cursor: pointer;
   z-index: 1001;
-}
-.close-button:hover {
-  color: #3498db;
+
+  &:hover {
+    color: #3498db;
+  }
 }
 
 .menu-socials {
@@ -134,14 +139,16 @@
   margin-top: 2rem;
   border-top: 1px solid #444;
   box-sizing: border-box;
-}
-.menu-socials a {
-  color: white;
-  font-size: 1.8rem;
-  transition: transform 0.2s ease, color 0.3s ease;
-  margin: 15px;
-}
-.menu-socials a:hover {
-  color: #3498db;
-  transform: scale(1.2);
+
+  a {
+    color: white;
+    font-size: 1.8rem;
+    transition: transform 0.2s ease, color 0.3s ease;
+    margin: 15px;
+
+    &:hover {
+      color: #3498db;
+      transform: scale(1.2);
+    }
+  }
 }
